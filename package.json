@@ -1,0 +1,53 @@
+{
+  "name": "pixai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI game asset studio on Solana — generate sprites, animations, tilesets, parallax backgrounds and low-poly 3D models, export-ready for Unity, Godot and Unreal.",
+  "keywords": [
+    "ai",
+    "game-assets",
+    "sprites",
+    "tilesets",
+    "solana",
+    "nextjs",
+    "tailwindcss"
+  ],
+  "author": "KURTGUETTO",
+  "license": "MIT",
+  "homepage": "https://github.com/KURTGUETTO/PIXAI#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KURTGUETTO/PIXAI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KURTGUETTO/PIXAI/issues"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "set-token": "node scripts/set-token.mjs"
+  },
+  "dependencies": {
+    "@reown/appkit": "^1.8.21",
+    "@reown/appkit-adapter-solana": "^1.8.21",
+    "@solana/web3.js": "^1.98.4",
+    "@types/pg": "^8.20.0",
+    "bs58": "^6.0.0",
+    "jszip": "^3.10.1",
+    "next": "^14.0.0",
+    "pg": "^8.21.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
+  }
+}
